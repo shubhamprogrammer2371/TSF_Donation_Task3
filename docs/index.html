@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap-4.5.3-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel = "icon" href = "img/logo.png" type = "image/x-icon">
+
+  
+  <script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+  
+  <title>TSF Donation System</title>
+</head>
+
+<body>
+
+<!-- Navbar section starts here -->
+
+<div class="navbar" data-spy="affix" data-offset-top="197">
+<a class="logo" href="#home1" ><img src="img/logo.png" alt="logo" height=50px width=50px></a>
+<label>TSF Donation Centre </label>
+<nav class="navbarNav">
+ <a href="#home1" >Home</a>
+ <a href="#aboutus">About</a>
+ <a href="#donate">Donate</a>
+ <a href="#help">Help</a>
+ <a href="#contact">Contact</a>
+ <div class="animation start-home"></div>
+</nav>
+</div>
+
+<!-- Navbar section ends here -->
+
+
+<!-- Header section starts here -->
+
+<div id="home1" ></div>
+<h1 id="heading"> Welcome To TSF Donation Centre </h1>
+<div class="home" >
+<h3>A blood bank is a center where blood gathered as a result of blood donation is stored and preserved for later use in blood transfusion.
+ The term "blood bank" typically refers to a division of a hospital where the storage of blood product occurs and where proper testing is performed (to reduce the risk of transfusion related adverse events). 
+ However, it sometimes refers to a collection center, and some hospitals also perform collection. 
+ Blood banking includes tasks related to blood collection, processing, testing, separation, and storage.</h3>
+</div>
+
+<!-- Header section ends here -->
+
+
+<!-- About us section starts here -->
+
+<div id="aboutus"></div>
+<h1 id="heading"> About TSF Donation Centre </h1>
+<div class="about">
+<h3 id="aboutme">The term "blood bank" typically refers to a division of a hospital where the storage of blood product occurs and where proper testing is performed (to reduce the risk of transfusion related adverse events). 
+ However, it sometimes refers to a collection center, and some hospitals also perform collection. 
+ Blood banking includes tasks related to blood collection, processing, testing, separation, and storage.
+ Blood banking includes tasks related to blood collection, processing, testing, separation, and storage.</h3>
+</div>
+
+<!-- About us section ends here -->
+
+
+<!-- Donate section starts here -->
+
+<div id="donate"></div>
+<h1 id="heading"> Donate Now </h1>
+<div class="donate">
+<div id="donatenow">
+<h3><p style="font-size:50px;">Be part of the good campaign</p></h3>
+<h3 style="font-size:25px;color:white;">Light a candle in poor’s residence by donation</h3>
+<p style="font-size:20px;color:white;">We make a living by what we get. We make a life by what we give,
+The meaning of life is to find your gift. The purpose of life is to give it away.
+</p style="font-size:20px;color:white;">
+<p style="font-size:20px;color:white;">There are people who don’t donate because they assume everyone else is, and there are those who take up the torch and run with it.</p>
+
+</div>
+<div class="donatebutton"><a  href="https://rzp.io/l/7tO3XEgv" target="_blank"><b>Donate Now</b></a></div>
+</div>
+
+<!-- Donate section ends here -->
+
+
+
+<!-- Help Now section starts here -->
+
+<script>
+	   function validatedetails()
+	   {
+			var name=document.getElementById("name").value;
+			var email=document.getElementById("email").value;
+			var subject=document.getElementById("subject").value;
+			var message=document.getElementById("query").value;
+			
+			if(name=="")
+			{
+				alert("Please Enter Name");
+			}
+			else if(email=="")
+			{
+				alert("Please Enter Email Id");
+			}
+			else if(subject=="")
+			{
+				alert("Please Enter subject");
+			}
+			else if(query=="")
+			{
+				alert("Please Write Your Queries");
+			}
+			else 
+			{
+				alert("Message Send Successfully");
+			}
+	   }
+	   </script>
+  
+<div id="help"></div>  
+<h1 id="heading">Help</h1>
+<div class="help">
+<div id="helpnow">
+
+<p class="query"><b>Ask Your Queries : </b></p>
+<div class="form" >
+<h2 id="field">Name :</h2><input type="text"  id="name" name="name" placeholder="Enter your name"><br>
+<h2 id="field">E-mail :</h2><input type="email"  id="email" name="email" placeholder="Enter email address" autocomplete="off"><br>
+<h2 id="field">Enter Your Subject :</h2><input type="text"  id="subject" name="subject" placeholder="Enter Subject"><br>
+<h2 id="field">Enter Your Query :</h2><textarea type="text"  id="query" name="query" placeholder="Enter Message"></textarea>
+</div>
+<button  class="message" type="submit" value="submit" onclick="validatedetails()"><b>SEND MESSAGE</b></button>
+</div>
+</div>
+
+<!-- Help Now section ends here -->
+
+
+
+<!-- Contact us section starts here -->
+
+<div id="contact"></div>
+<h1 id="heading">Contact</h1>
+<div class="contact" >
+<div id="contactnow">
+  <h2 id="social">Our Social Sites</h2>
+  <section>
+  <ul >
+  <li style="color:white;"><a href="https://www.facebook.com/thesparksfoundation.info/" target="_blank">FACEBOOK   <i class="fa fa-facebook"></i></a></li><br>
+  <li style="color:white;"><a href="https://twitter.com/SparkFdn" target="_blank">TWITTER   <i class="fa fa-twitter" ></i></a></li><br>
+  <li style="color:white;"><a href="https://www.instagram.com/thesparksfoundation.info/" target="_blank">INSTAGRAM   <i class="fa fa-instagram"></i></a></li><br>
+  <li style="color:white;"><a href="https://in.linkedin.com/company/the-sparks-foundation" target="_blank">LINKEDIN   <i class="fa fa-linkedin"></i></a></li><br>
+  <li style="color:white;"><a href="https://www.thesparksfoundationsingapore.org/" target="_blank">WEBSITE   <i class="fa fa-globe " aria-hidden="true"></i></a></li>
+  </ul>
+  </section>
+</div>
+</div>
+
+<!-- Contact us section ends here -->
+
+
+
+<!-- Footer section starts here -->
+
+<footer>
+<div id="container">
+    <div id="header"><b>© 2021. Made by Shubham Bhalerao <br>
+      For the Project of The Sparks Foundation<b></div>
+ </div>
+</footer>
+
+<!-- Footer section ends here -->
+
+</body>
+</html>
